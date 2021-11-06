@@ -1,6 +1,6 @@
 /* beige color = #fbf8f3 */
 /* #4d13d1 */
-*
+
 
 body {
   background: #4d13d1;
@@ -31,6 +31,10 @@ h1 {
   margin: 0px;
 }
 
+h3 {
+  margin: 0px;
+}
+
 p {
   font-weight: 400;
 }
@@ -44,6 +48,9 @@ p {
 }
 .font20 {
   font-size: 20px;
+}
+.font44 {
+  font-size: 44px;
 }
 .font400 {
   font-size: 32px;
@@ -178,4 +185,42 @@ p {
 .hero-image {
   height: 110%;
   width: 110%;
+}
+
+/* end section one. begin section two */
+
+.container-two {
+  background: #ffffff;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.big-three {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+}
+
+#why-fiber {
+  flex-flow: row nowrap;
+}
+
+.examples {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.example-boxes {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.fiber-title {
+  color: #4d13d1;
 }
