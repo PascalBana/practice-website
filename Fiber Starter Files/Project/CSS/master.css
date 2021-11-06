@@ -35,6 +35,11 @@ h3 {
   margin: 0px;
 }
 
+h6 {
+  margin-top: 15px;
+  margin-bottom: 10px
+}
+
 p {
   font-weight: 400;
 }
@@ -205,13 +210,15 @@ p {
 
 #why-fiber {
   flex-flow: row nowrap;
+  margin: 64px 0px;
 }
 
 .examples {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  gap: 90px;
 }
 
 .example-boxes {
@@ -221,6 +228,54 @@ p {
   align-items: flex-start;
 }
 
+.p-margin {
+  margin-top: 5px;
+  padding-bottom: 160px;
+  line-height: 30px;
+
+}
+
 .fiber-title {
   color: #4d13d1;
 }
+.diversify-your-portfolio {
+  width: 1320px;
+  background-color: #4d13d1;
+  border-radius: 12px;
+  color: #ffffff;
+  flex-flow: row nowrap;
+}
+
+.portfolio-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+}
+
+.off-white {
+  color: #e6defd;
+}
+
+.emoji {
+  width: 13%;
+  height: 13%;
+}
+
+.free-trial-button {
+  color: #4d13d1;
+  background-color: #ffffff;
+  padding: 24px 32px;
+  border-radius: 12px;
+}
+
+.portfolio-image {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+ .page-image {
+   height: 125%;
+   width: 125%;
+ }
