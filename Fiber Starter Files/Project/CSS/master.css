@@ -1,5 +1,181 @@
 /* beige color = #fbf8f3 */
+/* #4d13d1 */
+*
+
+body {
+  background: #4d13d1;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  font-family: "Inter";
+  font-weight: 400;
+}
 
 header {
-  background: #fbf8f3;
+  background-color: #fbf8f3;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 160px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0px;
+}
+
+p {
+  font-weight: 400;
+}
+
+.p {
+  color: #4f4f4f;
+}
+
+.font24 {
+  font-size: 22px;
+}
+.font20 {
+  font-size: 20px;
+}
+.font400 {
+  font-size: 32px;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.flex1 {
+  flex: 1
+}
+
+.spacing {
+  width: 1320px;
+  padding: 0px 180px;
+}
+
+.links {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.header-buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px
+}
+
+.sign-in-button {
+  background-color: #fbf8f3;
+  color: black;
+  border-radius: 5px;
+  border-style: none;
+  padding: 24px 32px;
+}
+
+.sign-up-button {
+  background-color: #4d13d1;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  padding: 24px 32px;
+  }
+
+/* End of header. Start of container one */
+
+.container-one {
+  display: flex;
+  background-color: #fbf8f3;
+
+}
+
+.container-one-text-box {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 120px
+}
+
+.rating {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  color: black;
+  font-weight: 500
+}
+
+.star {
+  height: 20px;
+  width: 20px;
+}
+
+.create-header {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.container-one-paragraph {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.button-link {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.check-boxes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.SFT {
+  background-color: #4d13d1;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  padding: 24px 32px;
+}
+
+.view-examples {
+  color: #4d13d1;
+  text-decoration: underline;
+  padding: 24px 32px;
+}
+
+.container-one-picture-box {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0;
+  padding-bottom: 160px
+}
+
+.hero-image {
+  height: 110%;
+  width: 110%;
 }

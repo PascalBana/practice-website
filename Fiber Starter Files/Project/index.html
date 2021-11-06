@@ -3,63 +3,75 @@
   <head>
     <title>Homepage</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="CSS/master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   </head>
 
   <body>
 
-    <header>
+    <header class="spacing">
 
-      <div class="fiber">
+      <div class="flex1 font24 bold">
         <h3>Fiber</h3>
       </div>
 
-      <div class="links">
-        <ul>
+      <div class="flex1">
+        <ul class="links font24">
           <li><a href="#">Community</a></li>
           <li><a href="#">Pricing</a></li>
           <li><a href="#">Features</a></li>
         </ul>
       </div>
 
-      <div class="header-buttons">
-        <button type="button" name="button">sign in</button>
-        <button type="button" name="button">sign up</button>
+      <div class="header-buttons flex1">
+        <button type="button" name="button" class="sign-in-button font24 bold">
+          <b>Sign In</b></button>
+        <button type="button" name="button" class="sign-up-button font24 bold">
+          Sign Up</button>
       </div>
 
     </header>
 
-    <div class="container one">
-      <div class="container one text box">
-        <div class="rating">
+    <div class="container-one spacing">
+      <div class="container-one-text-box flex1">
+        <div class="rating font20 p">
+          <img src="Assets/star.svg" alt="star 1" class="star">
+          <img src="Assets/star.svg" alt="star 2" class="star">
+          <img src="Assets/star.svg" alt="star 3" class="star">
+          <img src="Assets/star.svg" alt="star 4" class="star">
+          <img src="Assets/star.svg" alt="star 5" class="star">
           <p>Rated 4.8/5 (243 reviews)</p>
         </div>
 
-        <div class="create header">
-          Create your portfolio in minutes.
+        <div class="create-header font400">
+          <h1>Create your portfolio in minutes.</h1>
         </div>
 
-        <div class="container one paragraph">
+        <div class="container-one-paragraph font20 p">
           <p>With Fiber, you can setup your own personal portfolio
           minutes with dozens of premade, beautiful templates.</p>
         </div>
 
-        <div class="button & link">
-          <button type="button" name="button">Start Free Trial</button>
-          <a href="#">View Examples</a>
+        <div class="button-link">
+          <button type="button" name="button" class="SFT font24 bold">
+            Start Free Trial</button>
+          <a href="#" class="view-examples font24 bold">View Examples</a>
         </div>
 
-        <div class="check boxes">
-          <img src="" alt="">
+        <div class="check-boxes font20 p">
+          <img src="Assets/Checkmark.svg" alt="check">
             <p>No Credit Card Required</p>
-          <img src="" alt="">
+          <img src="Assets/Checkmark.svg" alt="check">
             <p>10 Free Templates</p>
         </div>
 
       </div>
 
-      <div class="container one picture box">
-        <img src="Assets/hero-illustration.png" alt="main page hero image">
+      <div class="container-one-picture-box flex1">
+        <img src="Assets/hero-Illustration.png"
+             alt="main page hero image" class="hero-image" >
       </div>
 
     </div>
@@ -76,7 +88,7 @@
 
     </div>
 
-    <footer></footer>
+    <footer>Property of TardBrother Industries &trade; 2021</footer>
   </body>
 
 
